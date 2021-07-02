@@ -12,10 +12,12 @@ for (i = 0; i < mails.length; i++) {
     if (userMail === mails[i]) {
         alert('Acceso consentito')
 
+        // Randomizer
+        var userNumber = Math.floor(Math.random() * 6) + 1;
+        console.log(userNumber);
+        var cpuNumber = Math.floor(Math.random() * 6) + 1;
+        console.log(cpuNumber);
 
     }
-}
 
-if (i >= mails.length) {
-    alert('La mail risulta errata. Riprovare')
 }
