@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Otomanopee One', sans-serif;
+    text-align: center;
+    background-color: dodgerblue;
+}
+
+h1{
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+h2{
+    font-size: 40px;
+    margin: 20px auto;
+}
+
+#result{
+    font-size: 60px;
+}
+
+.fa-smile-beam, .fa-meh-rolling-eyes, .fa-sad-cry{
+    color: goldenrod;
+}
