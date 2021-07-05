@@ -10,12 +10,12 @@ console.log(userMail);
 
 // validator
 
-var validator = false;
+var isAllowed = false;
 
-for (i = 0; i < mails.length; i++) {
+for (var i = 0; i < mails.length; i++) {
     if (userMail === mails[i]) {
         alert('Acceso consentito')
-        validator = true;
+        isAllowed = true;
 
         // Randomizer
         var userNumber = Math.floor(Math.random() * 6) + 1;
@@ -69,9 +69,9 @@ for (i = 0; i < mails.length; i++) {
     }
 }
 
-console.log(validator)
+console.log(isAllowed)
 
-if (!validator) {
+if (!isAllowed) {
     alert('Email errata: riprovare');
 }
 
